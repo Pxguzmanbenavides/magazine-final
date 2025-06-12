@@ -31,7 +31,7 @@
             <!--Here will be navigation bar with places,food,shops in the area.-->
 <div id="navplaceholder">
         <script>
-            fetch('nav.html')
+            fetch('home.html')
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('navplaceholder').innerHTML = data;
@@ -40,9 +40,10 @@
         </script>
             <nav>
                 <ul>
+                     <li><a href="index.html">Home</a></li>
                     <li><a href="../pages/sights.html">Sights and Strolls</a></li>
-                    <li><a href="fluid.html">Food and drink</a></li>
-                    <li><a href="historyofinternet.html">Shops and galleries</a></li>
+                    <li><a href="../pages/food.html">Food and Drinks</a></li>
+                    <li><a href="../pages/shops.html">Shops and Galleries</a></li>
                 </ul>
             </nav>
 

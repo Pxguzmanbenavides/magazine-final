@@ -12,14 +12,63 @@
 </head>
 <body>
     <h1> Sights and Strolls</h1>
-        <h3>"There are so many ways to enjoy the waterfront strolling, biking, sliding down new slides, sitting and taking in views of the water. All were designed with the goal of making this a welcoming and safe, and inclusive space. We have built a waterfront tht truly reflects our original vision of creating a waterfront for all." <i> - Angel Brady, Director for the office of the Waterfront and civic projects</i></h3>
+        <h3>"There are so many ways to enjoy the waterfront strolling, biking, sliding down new slides, sitting and 
+            taking in views of the water. All were designed with the goal of making this a welcoming and safe, and 
+            inclusive space. We have built a waterfront tht truly reflects our original vision of creating a 
+            waterfront for all." <i> - Angel Brady, Director for the office of the Waterfront and civic projects</i></h3>
+
+            <div id="navplaceholder">
+        <script>
+            fetch('home.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navplaceholder').innerHTML = data;
+                })
+                .catch(error => console.error('Error fetching nav:', error));
+        </script>
+            <nav>
+                <ul>
+                     <li><a href="index.html">Home</a></li>
+                    <li><a href="../pages/sights.html">Sights and Strolls</a></li>
+                    <li><a href="../pages/food.html">Food and Drinks</a></li>
+                    <li><a href="../pages/shops.html">Shops and Galleries</a></li>
+                </ul>
+            </nav>
     
         <!--image of the waterfont slides-->
 
         <h2>Ocean Pavilion</h2>
-        <p>In The <b>Seattle Aquarium</b> stunning new ocean pavillion,marve at some 3,000 animals and plants native to the Coral Triangle, which encompasses the waters of Indonesia, the Philippines, and Malaysia. As you walk beneath the Pavillion, look up at the sea life through a giant oculus window. Accliamed Lummi glass artist Dan Friday designed three elements at the building's entry, including a brilliant school of 33 hand-blown glass salmon suspended from the ceiling. "The sotry of coast salish peopleis the story of the Salmon People" says Friday, touching on the inspiration beehind this dazzling work. "The Ocean Pavillion highlights the message of connectivity," says Emily Malone, Seattle Aquarium public relations specialist. "we have one ocean and the same issues impact marine life and ecosystems here at home and around the world."</p>
+        
+        <p>In The <b>Seattle Aquarium</b> stunning new ocean pavillion,marve at some 3,000 animals and plants native 
+            to the Coral Triangle, which encompasses the waters of Indonesia, the Philippines, and Malaysia. As you 
+            walk beneath the Pavillion, look up at the sea life through a giant oculus window. Accliamed Lummi glass 
+            artist Dan Friday designed three elements at the building's entry, including a brilliant school of 33 
+            hand-blown glass salmon suspended from the ceiling. "The sotry of coast salish peopleis the story of 
+            the Salmon People" says Friday, touching on the inspiration beehind this dazzling work. "The Ocean 
+            Pavillion highlights the message of connectivity," says Emily Malone, Seattle Aquarium public relations
+             specialist. "we have one ocean and the same issues impact marine life and ecosystems here at home and 
+             around the world."</p>
+        
         <h2>Belltown And Beyond</h2>
+        
+        <p>As you continue up the shoreline, bike lanes and landscaping futher invite you into hip belltown and to explore 
+            the dynamic works of the <b>Olympic Sculpture Park.</b></p>
+
+        <p>"We're pleased to see the new bike paths, the Centennial Park/Myrtle Edwards Park revitalization, and the 
+            improvements along the old train tracks that have been supported by Melinda Gates," says Ian McClendon, 
+            general manager of historic <b>Edgewater Hotel</b> with its beloved resturant, Six Seven. He adds that 
+            visitors  this year can look foward to an expanded Sound Waves concert series "with some amazing bands 
+            coming through the hotel. And the Seafair Torchlight Parade will be happening on Alaskan Way 
+            ( on July 26)."</p>
+
         <h2>Overlook Walk</h2>
+        
+        <p><i><b> This Dramatic Elevated</b></i> park and pedestrain bridge boast a 360-degree panorama, thoughtful 
+            landscaping, ample seating, a cafe (planned to open in summer 2025) and kids' play elements. This 
+            impressive structure connects the rooftop of Seattles Aquarium's Ocean Pavilion to the outdoor terrace of 
+            Pike Place Market inviting Market Front building. The Design of native Plantings by landscape architect and 
+            Muckleshoot Indian Tribe Member</p>
+
         <h2>Pier 62</h2>
         
 </body>
