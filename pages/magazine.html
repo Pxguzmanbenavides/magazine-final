@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waterfront Revival </title>
+    <link href="../styles/magazine.css" rel="stylesheet" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    
+    <h1>Waterfront Revival</h1>
+       
+        <h2>Illustartions by ..</h2>
+             
+            <p>This year, Seattle officially unveiled its ambitous and expansive waterfront transformation. Today you'll 
+                encounter new landscaped and pathways, art-filled gathering spaces, and dramatic new viewpoints spanning 
+                beautiful Eliott Bay, from the sports staduims near Pioneer Square to Pike Place Market to Belltown. For vistors, this dramatic restoration of one of the city's most popular districts has be a complete game changer.</p>
+
+            <p>"The New waterfront provides so many new and improved oppurtunites for connection," says Kevin Clark, CEO of Argosy Cruises <!-- Add website to argosy crusies--> Argosycrusies.com.</p>
+            
+            <p>The Citys of seattle's office of the Waterfront, in collaboration with the community and Friends of Waterfront Park- the nonprofit that manages and stewards Waterfront Park- reimagined 17 blocks along Alaskan Way, Where elevated Alaskan Way Viaduct freeway has stood as a barrier between the waterfront and downtown until it was razed in 2019. Here are some of the exciting features to watch for as you explore. </p>
+
+            <h3>Learn More - For more details about Waterfront Park, including upcoming events, Visit waterfrontparkseattle.org</h3>
+
+            <!--Here will be navigation bar with places,food,shops in the area.-->
+<div id="navplaceholder">
+        <script>
+            fetch('nav.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navplaceholder').innerHTML = data;
+                })
+                .catch(error => console.error('Error fetching nav:', error));
+        </script>
+            <nav>
+                <ul>
+                    <li><a href="../pages/sights.html">Sights and Strolls</a></li>
+                    <li><a href="fluid.html">Food and drink</a></li>
+                    <li><a href="historyofinternet.html">Shops and galleries</a></li>
+                </ul>
+            </nav>
+
+            <!--here will be image of the water front map hopefully interaction-->
+
+
+
+
+</body>
+</html>
