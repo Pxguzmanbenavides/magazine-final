@@ -1,0 +1,101 @@
+@media screen and (min-width:641px) and (max-width:485px){
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    
+    a:hover {
+        background-color: rgb(98, 161, 98);
+    }
+    
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 60px;
+        padding: 20px;
+        margin: 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        background-color: rgb(125, 188, 125);
+    }
+    
+    .belltown p {
+        text-align: left;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(125, 188, 125, 0.83);
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height:20px;
+    }
+    
+    .grid {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: auto auto ;
+        padding: 10px;
+    }
+    
+    .grid > div {
+        background-color: rgba(125, 188, 125, 0.83);
+        padding: 20px;
+        font-size: 18px;
+        text-align: left;
+    }
+    
+    .grid img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .grid h2 {
+        font-size: 24px;
+        margin-top: 0;
+    }
+    .grid p {
+        font-size: 16px;
+        line-height: 1.5;   
+}
+
+nav{
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        margin: 0 15px;
+    }
+    
+    nav ul li a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    nav ul li a:hover {
+        color: rgb(98, 161, 98);
+    }
+    nav ul li a:active {
+        color: rgb(98, 161, 98);}}
+
+    .grid h2 {
+        font-size: 24px;
+        margin-top: 0;}
+}

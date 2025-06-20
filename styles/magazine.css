@@ -1,11 +1,153 @@
 
 body {
-    background-color: beige;
+    /*background-color: rgb(125, 188, 125);*/
+    background-image: url("../images/waterfrontbackground\ copy.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin:10px;
 }
 
-h1,h2,h3,p {
+body,h1,h2,h3,p,nav,a {
   font-family: "Geologica", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
- 
+  
+
 }
+
+
+.navbar ul{
+  padding:0%;
+  list-style-type: none;
+  margin:0px;
+  background-color: green;
+  overflow: hidden;
+}
+
+.navbar a {
+  color:white;
+  text-decoration: none;
+  padding:15px;
+  display:block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: rgb(40, 199, 40);
+}
+
+.navbar li{
+  float:left;
+}
+
+.blitz{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  margin: auto;
+
+width: 100%;
+height: auto;
+padding:20px;
+box-sizing: border-box;
+overflow: visible;}
+
+
+  .oceanimg{
+    float:left;
+    margin-right: 10px;
+  }
+
+  p .frito{
+    text-align:left;
+    padding-right: 300px;
+  }
+
+  p {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+ h2{
+    padding: 10px;
+    margin: 1px;
+    font-size: 50px;
+    
+  }
+
+  /*.frito p*/ .frito h2{
+    border:3px;
+    border-color:rgb(24, 51, 52);
+
+    text-align: left;
+    text-wrap:inherit;
+    margin-right: 10px;
+    align-items: center;
+  }
+
+  a{
+    text-decoration: none;
+    color:darkgreen;
+    font-size: large;
+    
+  }
+
+  a:hover {
+    background-color:rgb(98, 161, 98);
+  }
+
+  h1{
+    color:white;
+    
+    text-align: center;
+    font-size: 60px;
+    padding: 20px;
+    margin: 0;
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(125, 188, 125);
+  }
+
+  .belltown p {
+    text-align:left;
+  }
+
+ 
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(125, 188, 125, 0.83);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height:20px;
+}
+
+
+
+.grid {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto ;
+
+  padding: 10px;
+}
+
+.grid > div {
+  background-color:rgba(125, 188, 125, 0.83);
+  padding: 20px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+
+
+

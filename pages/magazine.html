@@ -6,6 +6,9 @@
     <title>Waterfront Revival </title>
     <link href="../styles/magazine.css" rel="stylesheet" type="text/css">
 
+    <link href="../styles/magazine2.css" rel="stylesheet" type="text/css" media="screen and (min-width:641px) and (max-width:485px )">
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -15,42 +18,48 @@
 
     
     <h1>Waterfront Revival</h1>
-       
-        <h2>Illustartions by ..</h2>
-             
+       <nav class="navbar">
+                <ul>
+                     <li><a href="magazine.html"><img src="../images/homelogo.png" width="95px"></a></li>
+                     <li><a href="../pages/sights.html"><img src="../images/sightslogo.png" width="95px"></a></li>
+                    <li><a href="../pages/food.html"><img src="../images/foodlogo.png" width="95px"></a></li>
+                    <li><a href="../pages/shops.html"><img src="../images/shopslogo.png" width="95px"></a></li>
+                </ul>
+            </nav>
+      
+            <div class="grid">
+                <div> 
             <p>This year, Seattle officially unveiled its ambitous and expansive waterfront transformation. Today you'll 
                 encounter new landscaped and pathways, art-filled gathering spaces, and dramatic new viewpoints spanning 
                 beautiful Eliott Bay, from the sports staduims near Pioneer Square to Pike Place Market to Belltown. For vistors, this dramatic restoration of one of the city's most popular districts has be a complete game changer.</p>
+<img src="../images/argosy.jpg" alt="argosy cruises" width="400px">
+            <p>Argosy Cruises, which has been operating on the waterfront for more than 70 years, is thrilled to be part of the new waterfront experience. The company offers a variety
+                of cruises, including sightseeing tours, dining cruises, and private charters, allowing guests to
+                explore the stunning views of Seattle's skyline, the Olympic Mountains, and the Puget Sound. The cruises provide a unique perspective of the city and its surroundings, making them a popular choice for both locals and tourists. With the new waterfront enhancements, Argosy Cruises is excited to offer even more
+                opportunities for visitors to connect with the natural beauty of Seattle and its waterfront.</p>
+            <p>"The New waterfront provides so many new and improved oppurtunites for connection," says Kevin Clark, CEO of Argosy Cruises <!-- Add website to argosy crusies--> <a href="https://www.argosycruises.com/">Argosycrusies.com.</a></p>
 
-            <p>"The New waterfront provides so many new and improved oppurtunites for connection," says Kevin Clark, CEO of Argosy Cruises <!-- Add website to argosy crusies--> Argosycrusies.com.</p>
+                </div>
+                <div>
             
             <p>The Citys of seattle's office of the Waterfront, in collaboration with the community and Friends of Waterfront Park- the nonprofit that manages and stewards Waterfront Park- reimagined 17 blocks along Alaskan Way, Where elevated Alaskan Way Viaduct freeway has stood as a barrier between the waterfront and downtown until it was razed in 2019. Here are some of the exciting features to watch for as you explore. </p>
-
-            <h3>Learn More - For mores details about Waterfront Park, including upcoming events, Visit waterfrontparkseattle.org</h3>
-
+<img src="../images/waterfront map.jpg" alt="waterfront map" width="400px">
+            <p>Waterfront Park is a 20-acre park that stretches from Pioneer Square to Belltown, offering a scenic and vibrant space for both locals and visitors. The park features a variety of attractions, including the Seattle Aquarium, the Seattle Great Wheel, and numerous public art installations.
+            It also includes walking and biking paths, picnic areas, and green spaces, making it a perfect spot for outdoor activities and relaxation. The park is designed to be accessible and inclusive, with amenities such as restrooms, seating areas, and play spaces for children. The park hosts various events throughout the year, including concerts, festivals, and community gatherings, making it a hub of activity and culture.</p>
+            <p>Waterfront Park is a must-visit destination for anyone looking to
+            <h3>Learn More - For mores details about Waterfront Park, including upcoming events, Visit <a href="https://waterfrontparkseattle.org/the-park/">waterfrontparkseattle.org</a></h3>
+            </div>
+            </div>
             <!--Here will be navigation bar with places,food,shops in the area.-->
-<div id="navplaceholder">
-        <script>
-            fetch('home.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('navplaceholder').innerHTML = data;
-                })
-                .catch(error => console.error('Error fetching nav:', error));
-        </script>
-            <nav>
-                <ul>
-                     <li><a href="index.html">Home</a></li>
-                    <li><a href="../pages/sights.html">Sights and Strolls</a></li>
-                    <li><a href="../pages/food.html">Food and Drinks</a></li>
-                    <li><a href="../pages/shops.html">Shops and Galleries</a></li>
-                </ul>
-            </nav>
+
+            
 
             <!--here will be image of the water front map hopefully interaction-->
 
 
-
+<footer>
+    <p>Graph 130- Paulina Guzman Benavides</p>
+</footer>
 
 </body>
 </html>
