@@ -7,72 +7,107 @@
 
     <link href="../styles/magazine.css" rel="stylesheet" type="text/css">
 
+    <link href="../styles/magazine2.css" rel="stylesheet" type="text/css" media="screen and (min-width:641px) and (max-width:485px )">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+   
+
 </head>
+
 <body>
-    <h1> Sights and Strolls</h1>
-        <h3>"There are so many ways to enjoy the waterfront strolling, biking, sliding down new slides, sitting and 
-            taking in views of the water. All were designed with the goal of making this a welcoming and safe, and 
-            inclusive space. We have built a waterfront tht truly reflects our original vision of creating a 
-            waterfront for all." <i> - Angel Brady, Director for the office of the Waterfront and civic projects</i></h3>
-
-            <div id="navplaceholder">
-        <script>
-            fetch('home.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('navplaceholder').innerHTML = data;
-                })
-                .catch(error => console.error('Error fetching nav:', error));
-        </script>
-            <nav>
-                <ul>
-                     <li><a href="index.html">Home</a></li>
-                    <li><a href="../pages/sights.html">Sights and Strolls</a></li>
-                    <li><a href="../pages/food.html">Food and Drinks</a></li>
-                    <li><a href="../pages/shops.html">Shops and Galleries</a></li>
-                </ul>
-            </nav>
+    <!--intro-->
+    <h1><b> Sights and Strolls</b></h1>
+       <!-- id="navplaceholder"> -->
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="magazine.html"><img src="../images/homelogo.png" width="95px"></a></li>
+                         <li><a href="../pages/sights.html"><img src="../images/sightslogo.png" width="95px"></a></li>
+                        <li><a href="../pages/food.html"><img src="../images/foodlogo.png" width="95px"></a></li>
+                        <li><a href="../pages/shops.html"><img src="../images/shopslogo.png" width="95px"></a></li>
+                    </ul>
+                </nav>
+        <!--grid start-->
     
-        <!--image of the waterfont slides-->
+    <div class="grid">
 
-        <h2>Ocean Pavilion</h2>
-        
-        <p>In The <b>Seattle Aquarium</b> stunning new ocean pavillion,marve at some 3,000 animals and plants native 
-            to the Coral Triangle, which encompasses the waters of Indonesia, the Philippines, and Malaysia. As you 
-            walk beneath the Pavillion, look up at the sea life through a giant oculus window. Accliamed Lummi glass 
-            artist Dan Friday designed three elements at the building's entry, including a brilliant school of 33 
-            hand-blown glass salmon suspended from the ceiling. "The sotry of coast salish peopleis the story of 
-            the Salmon People" says Friday, touching on the inspiration beehind this dazzling work. "The Ocean 
-            Pavillion highlights the message of connectivity," says Emily Malone, Seattle Aquarium public relations
-             specialist. "we have one ocean and the same issues impact marine life and ecosystems here at home and 
-             around the world."</p>
-        
-        <h2>Belltown And Beyond</h2>
-        
-        <p>As you continue up the shoreline, bike lanes and landscaping futher invite you into hip belltown and to explore 
-            the dynamic works of the <b>Olympic Sculpture Park.</b></p>
+        <div>
+        <h2>Ocean Pavilion</h2>    
+        <img src="../images/oceanpavillion.jpg" alt="ocean pavillion" width="350px" class="float-left">
+         <p>In The <b><i><a href="https://www.seattleaquarium.org/">Seattle Aquarium</a></i></b> stunning new ocean pavillion,marve at some 3,000 animals and plants native 
+        to the Coral Triangle, which encompasses the waters of Indonesia, the Philippines, and Malaysia. As you 
+         walk beneath the Pavillion, look up at the sea life through a giant oculus window. Accliamed Lummi glass 
+         artist Dan Friday designed three elements at the bug's entry, incg a brilliant school of 33 
+                    hand-blown glass salmon suspended from the ceiling. "The sotry of coast salish peopleis the story of 
+                    the Salmon People" says Friday, touching on the inspiration beehind this dazzling work. "The Ocean 
+                    Pavillion highlights the message of connectivity," says Emily Malone, Seattle Aquarium public relations
+                    specialist. "we have one ocean and the same issues impact marine life and ecosystems here at home and 
+                    around the world."</p>
+        </div>
 
-        <p>"We're pleased to see the new bike paths, the Centennial Park/Myrtle Edwards Park revitalization, and the 
-            improvements along the old train tracks that have been supported by Melinda Gates," says Ian McClendon, 
-            general manager of historic <b>Edgewater Hotel</b> with its beloved resturant, Six Seven. He adds that 
-            visitors  this year can look foward to an expanded Sound Waves concert series "with some amazing bands 
-            coming through the hotel. And the Seafair Torchlight Parade will be happening on Alaskan Way 
-            ( on July 26)."</p>
+        <div>
 
-        <h2>Overlook Walk</h2>
+                    
         
-        <p><i><b> This Dramatic Elevated</b></i> park and pedestrain bridge boast a 360-degree panorama, thoughtful 
-            landscaping, ample seating, a cafe (planned to open in summer 2025) and kids' play elements. This 
-            impressive structure connects the rooftop of Seattles Aquarium's Ocean Pavilion to the outdoor terrace of 
-            Pike Place Market inviting Market Front building. The Design of native Plantings by landscape architect and 
-            Muckleshoot Indian Tribe mmMember</p>
+                <h2>Belltown And Beyond</h2>
+                
+                <p>As you continue up the shoreline, bike lanes and landscaping futher invite you into hip belltown and to explore 
+                    the dynamic works of the 
+                    
+                    <i><b><a href="https://www.seattle.gov/parks/allparks/olympic-sculpture-park">Olympic 
+                    Sculpture Park</a></b></i></p>
 
-        <h2>Pier 62</h2>
+                    <img src="../images/belltown.jpg" alt="belltown" width="350px">
 
-        <p>This Striking pier offers seating, games, and free events,-from yoga to concerts to firepit socials- hosted by 
-            Friends of Waterfront Park and their community partners.</p>
-        
+                <p>"We're pleased to see the new bike paths, the Centennial Park/Myrtle Edwards Park revitalization, and the 
+                    improvements along the old train tracks that have been supported by Melinda Gates," says Ian McClendon, 
+                    general manager of historic
+                    
+                    <i><b><a href="https://www.edgewaterhotel.com/?NCK=8666391274&gad_source=1&gad_campaignid=752708071&gbraid=
+                        0AAAAADO1OjOjh-12zcQ8HoYGpqUfMeOew&gclid=CjwKCAjwx8nCBhAwEiwA_z__0-IpiA4aIcVB0CP6yGwNU9jZxj8-2UxinwiHcwEG
+                        PUxsOjPpSrrNkhoC1oUQAvD_BwE">EdgeWater Hotel</a></b></i> 
+                        
+                    with its beloved resturant, Six Seven. He adds that visitors  this year can look foward to an expanded Sound Waves 
+                    concert series "with some amazing bands coming through the hotel. And the Seafair Torchlight Parade will be happening on Alaskan Way 
+                    ( on July 26)."</p>
+
+        </div>
+
+        <div>
+
+                        <h2>Overlook Walk</h2>
+
+                <section class="overlook">
+                <img src="../images/overlook.jpeg" alt="overlook in seattle" width="350px">
+                
+                
+                <p><i><b><a href="https://waterfrontparkseattle.org/your-guide-to-waterfront-park/"> Dramatic Elevated</a></b></i> park and pedestrain bridge boast a 360-degree panorama, thoughtful 
+                    landscaping, ample seating, a cafe (planned to open in summer 2025) and kids' play elements. This 
+                    impressive structure connects the rooftop of Seattles Aquarium's Ocean Pavilion to the outdoor terrace of 
+                    Pike Place Market inviting Market Front bug. The Design of native Plantings by landscape architect and 
+                    Muckleshoot n Tribe mmMember</p>
+                    
+        </div>
+
+        <div>
+       
+
+                <h2>Pier 62</h2>
+
+                <img src="../images/waterfront-block-party-2024-pier-62-and-overlook-walk-720x539.jpg" alt="pier 62" width="350px">
+
+                <p>This Striking <i><b><a href="https://www.seattle.gov/parks/allparks/pier-62">Pier 62</a></b></i> offers seating, games, and free events,-from yoga to concerts to firepit socials- hosted by 
+                    Friends of Waterfront Park and their community partners.</p>
+
+        </div>  
+    </div>
+
+    <footer>
+        <p>Graph 130- Paulina Guzman Benavides</p>
+    </footer>
+
+                
+            
+ 
 </body>
 </html>
